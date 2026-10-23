@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "blackhole",
+  "version": "${version}",
+  "name": "Agujero Negro",
+  "description": "Un agujero negro aparece en 0 64 0, absorbe bloques y entidades y crece sin parar.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.blackhole.BlackHoleMod"],
+    "client": ["com.example.blackhole.BlackHoleClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
